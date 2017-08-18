@@ -38,20 +38,26 @@ p {
   color: #fff596;
 }
 
-hr {
+.dark-grey-bg {
+  background-color: #636363;
+  border-radius: 1rem;
+}
+
+.horizontal-rule {
   color: #fae200;
   background-color: #fae200;
   height: 0.2rem;
   margin-left: 0rem;
 }
 
-img, #hero {
+img {
   min-width: 100px;
   border-radius: 1rem;
 }
 
-.img-fluid {
-  height: auto;
+#hero {
+  min-width: 320px;
+  border-radius: 1rem;
 }
 
 main {
@@ -65,6 +71,10 @@ main {
 
 .padding-top {
   padding-top: 1rem;
+}
+
+.padding {
+  padding: 1rem;
 }
 
 .uppercase {
@@ -102,7 +112,6 @@ main {
 footer {
   padding-top: 3rem;
   padding-bottom: 1rem;
-  background-color: #636363;
   border-radius: 1rem;
 }
 
