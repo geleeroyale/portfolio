@@ -1,0 +1,114 @@
+.container, .container-fluid {
+  max-width: 1200px;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+}
+
+h1, h3, h4, h6 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.grey-headline {
+  padding-left: 1rem;
+  color: #636363;
+}
+
+.dark-yellow {
+  color: #fff596;
+}
+
+hr {
+  color: #fae200;
+  background-color: #fae200;
+  height: 0.2rem;
+  margin-left: 0rem;
+}
+
+img, #hero {
+  min-width: 100px;
+  border-radius: 1rem;
+}
+
+.img-fluid {
+  height: auto;
+}
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.padding-top {
+  padding-top: 1rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.thumb {
+  max-width: 320px;
+  max-height: 200px;
+}
+
+.portfolio-item {
+    max-width: 350px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.feature-background {
+    background-color: #fff596;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #636363;
+  border-radius: 1rem;
+}
+
+
+/*
+* {
+   outline: 1px solid red !important;
+}
+*/
